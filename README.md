@@ -1,4 +1,4 @@
-# Getting Started with App
+# Github Repository Search
 
 ### clone the repo and then do `npm install`
 To install all necessary dependencies.
