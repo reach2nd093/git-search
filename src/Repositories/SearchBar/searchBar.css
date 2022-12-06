@@ -1,14 +1,17 @@
-.searchBar {
+.search-bar {
     padding: 24px;
-}
-input{
     max-width: 767px;
     width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+input{
     padding: 16px;
     font-size: 16px;
     color: rgb(0, 126, 143);
     font-weight: 300;
     border: 1px solid rgb(0, 126, 143);
+    width: 730px;
 }
 input:focus{
     outline: none;

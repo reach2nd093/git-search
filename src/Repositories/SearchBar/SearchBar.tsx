@@ -19,7 +19,7 @@ const SearchBar = (props: {
   }
 
   return (
-    <div className="searchBar">
+    <div className="search-bar">
       <input 
         type="text"
         onChange={event => onSearch(event)}
