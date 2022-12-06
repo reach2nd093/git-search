@@ -1,0 +1,24 @@
+.repositoryItem{
+  text-align: left;
+  padding: 24px;
+  border: 1px solid #f1f1f1;
+}
+.repositoryItem:hover{
+  background-color: rgb(227, 250, 253);
+  transition: background-color 300ms;
+}
+.repositoryItem-title{
+  color: rgb(0, 126, 143);
+  font-size: 20px;
+  font-weight: 500;
+}
+.repositoryItem-info{
+  color: rgb(41, 41, 41);
+}
+.repositoryItem-statistics{
+  display: flex;
+  gap: 16px;
+}
+.repositoryItem-statistics p {
+  margin-bottom: 0;
+}

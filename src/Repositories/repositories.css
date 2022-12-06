@@ -1,0 +1,52 @@
+.repositories-wrapper header{
+  display: flex;
+  gap: 16px;
+  background-color: rgb(0, 126, 143);
+  color: #fff;
+  padding: 12px 36px;
+}
+.repositories-list {
+  max-width: 767px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.repositories-empty-info {
+  background-color: rgb(255, 253, 232);
+  color: rgb(107, 98, 0);
+  max-width: 767px;
+  width: 100%;
+  padding: 24px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+.repositories-empty-info svg {
+  margin-right: 16px;
+}
+.repositories-total-repo{
+  font-weight: bold;
+  color: #666;
+}
+.loading-state{
+  font-size: 40px;
+  color:  rgb(0, 126, 143);
+  animation: rotate-animation 1s infinite linear;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin: 34px auto;
+}
+
+@keyframes rotate-animation {
+	0% {
+		transform: rotate(0deg);
+  }
+  50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
